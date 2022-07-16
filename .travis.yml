@@ -20,9 +20,6 @@ script:
   - docker tag udagram-frontend khalil004/udagram-frontend:v1
   - docker tag udagram-api-feed khalil004/udagram-api-feed:v1
   - docker tag udagram-api-user khalil004/udagram-api-user:v1
-  
-  - docker build -t simple-node .
-  - docker tag simple-node khalil004/simple-node:latest
 
 # Tasks to perform after the process is successful. Formatting the Docker username and password as below enables you to programmatically log in without having the password exposed in logs.
 after_success:
