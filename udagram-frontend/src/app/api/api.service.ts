@@ -68,7 +68,7 @@ export class ApiService {
         this.http.request(req).subscribe((resp) => {
         if (resp && (<any> resp).status && (<any> resp).status === 200) {
           resolve(this.post(endpoint, payload));
-        }
+        } 
       });
     });
   }
