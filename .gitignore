@@ -37,6 +37,9 @@ UserInterfaceState.xcuserstate
 node_modules
 udagram-api
 .env
+set_env.sh
+set_env copy.sh
+deployment
 venv/
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
